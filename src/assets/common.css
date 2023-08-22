@@ -55,7 +55,7 @@ body {
 .header {
     position: relative;
     padding: 100px;
-    background-image: url(img/leftDiv.svg), url(img/rightDiv.svg);
+    background-image: url(img/leftDiv.png), url(img/rightDiv.png);
     background-position: 0px 0px, 100% 100%;
     background-size: auto, auto;
     background-repeat: no-repeat, no-repeat;
