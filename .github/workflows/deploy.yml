@@ -8,7 +8,6 @@ on:
     branches:
       - main
 
-      
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -20,6 +19,6 @@ jobs:
       - name: Deploy to GoDaddy
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
         with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
+          server: ftp.phoenixcounselling.in
+          username: id_rsa@phoenixcounselling.in
+          password: jeeva123@#
