@@ -247,8 +247,7 @@ a:focus {
 
 }
 .logo{
-    width: 260Px;
-    height: 125Px;
+    width: 12%;
 }
 @media only screen and (max-width: 600px) {
   .logo{
