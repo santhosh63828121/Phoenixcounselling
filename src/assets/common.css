@@ -21,6 +21,10 @@ body {
     padding-right: 6% !important;
 }
 
+.navMainContainer {
+    max-width: 80%;
+}
+
 .logo {
     width: 12rem;
 }
@@ -61,6 +65,11 @@ body {
     background-repeat: no-repeat, no-repeat;
 }
 
+.burgerCol {
+    text-align: right;
+    padding-top: 3%;
+}
+
 /* text */
 .heading-test {
     font-size: 3.5rem;
@@ -69,3 +78,46 @@ body {
 .para-text {
     font-size: 22px;
 }
+
+/* mobile view */
+
+/* Styles for mobile devices (up to 767px) */
+@media (max-width: 767px) {
+    .logo {
+        width: 10rem;
+    }
+
+    .navItems {
+        display: none !important;
+    }
+
+    .navMainContainer {
+        max-width: 95%;
+        margin: 0;
+    }
+
+    .navSubContainer {
+        margin-left: 0px !important;
+        margin-right: 9% !important;
+    }
+    .burgerCol {
+        padding-top: 10%;
+    }
+}
+
+/* Styles for tablets (768px to 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .navItems {
+        display: none !important;
+    }
+}
+
+/* Styles for small laptops and desktops (1024px to 1279px) */
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .navItems {
+        display: none !important;
+    }
+}
+
+/* Styles for medium to large laptops and desktops (1280px and above) */
+@media (min-width: 1280px) {}
