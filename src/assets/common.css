@@ -11,12 +11,8 @@ html {
 }
 
 body {
-    margin: 0 !important;
-    background-color: rgb(255, 245, 233) !important;
-    /* cursor: url(img/cursor.png),auto; */
-    /* pointer-events: auto; */
-    /* background:gray; */
-
+  margin: 0 !important;
+  background-color: rgb(255, 245, 233) !important;
   cursor:url(img/cursor-hand.gif), auto;
 }
 
