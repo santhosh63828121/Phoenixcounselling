@@ -11,12 +11,8 @@ html {
 }
 
 body {
-    margin: 0 !important;
-    background-color: rgb(255, 245, 233) !important;
-    /* cursor: url(img/cursor.png),auto; */
-    /* pointer-events: auto; */
-    /* background:gray; */
-
+  margin: 0 !important;
+  background-color: rgb(255, 245, 233) !important;
   cursor:url(img/cursor-hand.gif), auto;
 }
 
@@ -159,7 +155,19 @@ body {
     content: none;
   }
   /* workflow */
-
+.aboutme{
+  background-image: url(img/footerBg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* padding-top: 30%; */
+}
+.aboutcard{
+  border:none !important; 
+  background-color: transparent !important; 
+  padding-top: 10%;
+  padding: 10rem;
+}
   /* footer */
   footer#footer{
     background-image: url(img/footerBg.png);
@@ -192,6 +200,9 @@ body {
     }
     .burgerCol {
         padding-top: 10%;
+    }
+    .aboutcard{
+      padding: 2rem;
     }
 }
 
