@@ -60,7 +60,13 @@
                 font-family: 'Source Sans Pro', sans-serif;
                 padding: 6px 18px;
                 color: white;
-                border: none;">Apportionment</button>
+                border: none;"> 
+                            <!-- Calendly link widget begin -->
+                              <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                              <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+                              <a style="text-decoration:none; color:white;" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/uma_phoenix_counselling'});return false;">Apportionment</a>
+                            <!-- Calendly link widget end -->
+                </button>
               </div>
             </div>
           </div>
@@ -117,6 +123,9 @@
   <div class="container-fluid" style="padding: 0;">
     <div class="card mb-3 main-bg-color header" style=" border: none; padding-top: 2%; ">
       <div class="row g-0 customContainer">
+        <div class="col-md-5 landingImageMobile">
+          <img src="assets/img/header.png" class="img-fluid rounded-start" alt="...">
+        </div>
         <div class="col-md-7">
           <div>
             <h1 class="card-title" style="font-size: 3.5rem;">Psychology Counselor @Panvel</h1>
@@ -127,7 +136,7 @@
             <button onclick="window.location.href = 'about.html';" class="customButton">Read More</button>
           </div>
         </div>
-        <div class="col-md-5" style="width: 41%;">
+        <div class="col-md-5 landingImageDesktop">
           <img src="assets/img/header.png" class="img-fluid rounded-start" alt="...">
         </div>
       </div>
@@ -158,7 +167,7 @@
   </div>
   <!-- looking for support --->
   <!-- young people -->
-  <div class="container" style="max-width: 80%;">
+  <div class="container youngPeople">
     <div class="card customCard">
       <div class="card-body">
         <div class="row" style="align-items: center; padding: 40px;">
@@ -172,7 +181,7 @@
               wellbeing in a way that works for them. </p>
           </div>
           <div class="col-6">
-            <img src="./assets/img/playboy.png" alt="" width="85%" style="margin-left: 100px;">
+            <img class="youngPeopleImg" src="./assets/img/playboy.png" alt="" width="85%" >
           </div>
         </div>
       </div>

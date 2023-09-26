@@ -168,6 +168,15 @@ body {
   padding-top: 10%;
   padding: 10rem;
 }
+.landingImageDesktop{
+  width: 41%;
+}
+.youngPeople{
+  max-width: 80% !important;
+}
+.youngPeopleImg{
+  margin-left: 100px;
+}
   /* footer */
   footer#footer{
     background-image: url(img/footerBg.png);
@@ -204,6 +213,27 @@ body {
     .aboutcard{
       padding: 2rem;
     }
+    .header{
+      padding: 0px;
+    }
+    .landingImageDesktop{
+      display: none;
+    }
+    .youngPeople{
+      max-width: 100% !important;
+    }
+    .youngPeople .col-6{
+      width: 1000% !important;
+    }
+    .youngPeopleImg{
+      margin-left: 15px;
+    }
+    .heading-test{
+      font-size: 21px;
+    }
+    .para-text {
+      font-size: 16px;
+  }
 }
 
 /* Styles for tablets (768px to 1023px) */
@@ -211,6 +241,10 @@ body {
     .navItems {
         display: none !important;
     }
+    .landingImageDesktop{
+      display: none;
+    }
+    
 }
 
 /* Styles for small laptops and desktops (1024px to 1279px) */
@@ -218,7 +252,15 @@ body {
     .navItems {
         display: none !important;
     }
+    .landingImageMobile{
+      display: none;
+    }
+
 }
 
 /* Styles for medium to large laptops and desktops (1280px and above) */
-@media (min-width: 1280px) {}
+@media (min-width: 1280px) {
+  .landingImageMobile{
+    display: none;
+  }
+}
