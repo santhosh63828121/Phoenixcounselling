@@ -59,6 +59,7 @@ body {
 .header {
     position: relative;
     padding: 100px;
+    padding-bottom: 10px;
     background-image: url(img/leftDiv.png), url(img/rightDiv.png);
     background-position: 0px 0px, 100% 100%;
     background-size: auto, auto;
@@ -226,6 +227,9 @@ body {
     }
     .youngPeopleImg{
       margin-left: 15px;
+      margin-left: 100px;
+      margin-bottom: -20px;
+      margin-top: 20px;
     }
     .heading-test{
       font-size: 21px;
