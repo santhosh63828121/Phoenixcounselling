@@ -13,7 +13,7 @@ html {
 body {
   margin: 0 !important;
   background-color: rgb(255, 245, 233) !important;
-  cursor:url(img/cursor-hand.gif), auto;
+  cursor:url(/assets/img/cursor-hand.gif), auto;
 }
 
 .customContainer {
@@ -183,7 +183,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 10%;
   }
   /* footer */
 /* mobile view */
