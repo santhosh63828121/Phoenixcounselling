@@ -166,8 +166,9 @@ body {
 .aboutcard{
   border:none !important; 
   background-color: transparent !important; 
-  padding-top: 10%;
-  padding: 10rem;
+  padding-top: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 .landingImageDesktop{
   width: 41%;
@@ -220,9 +221,7 @@ i.bi.count{
     .burgerCol {
         padding-top: 10%;
     }
-    .aboutcard{
-      padding: 2rem;
-    }
+
     .header{
       padding: 0px;
     }
