@@ -184,7 +184,10 @@ div.banner{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+i.bi.count{
+  font-size: 3rem;
+  color: #e27a11;
+}
   /* footer */
   footer#footer{
     background-image: url(img/footerBg.png);
