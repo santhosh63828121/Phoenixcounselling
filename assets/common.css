@@ -178,6 +178,13 @@ body {
 .youngPeopleImg{
   margin-left: 100px;
 }
+div.banner{
+  background-image: url(img/bannerbg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
   /* footer */
   footer#footer{
     background-image: url(img/footerBg.png);
