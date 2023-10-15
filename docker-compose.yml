@@ -2,6 +2,7 @@ version: '3'
 services:
   server:
     image: nginx
+    container_name: PhoenixCounselling
     ports:
         - "127.0.0.1:80:80"
     volumes:
