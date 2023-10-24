@@ -31,6 +31,7 @@ body {
 
 .logo {
     width: 12rem;
+    height: auto;
 }
 
 /* color */
@@ -210,6 +211,7 @@ i.bi.count{
 @media (max-width: 767px) {
     .logo {
         width: 10rem;
+        height: auto;
     }
 
     .navItems {
