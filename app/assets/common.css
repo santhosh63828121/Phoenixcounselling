@@ -193,6 +193,9 @@ i.bi.count{
   font-size: 3rem;
   color: #e27a11;
 }
+.adolescenceCounsellingBanner{
+  width: 30rem;
+}
   /* footer */
   footer#footer{
     background-image: url(img/footerBg.png);
@@ -249,6 +252,9 @@ i.bi.count{
     }
     .para-text {
       font-size: 16px;
+  }
+  .adolescenceCounsellingBanner{
+    width: 19rem;
   }
 }
 
